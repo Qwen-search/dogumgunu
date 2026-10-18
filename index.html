@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Doğum Günün Kutlu Olsun 🎉</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Background particles canvas -->
+  <canvas id="bgCanvas"></canvas>
+
+  <!-- Floating balloons -->
+  <div id="balloons"></div>
+
+  <!-- Main content -->
+  <div class="container">
+    <div class="card" id="mainCard">
+      <div class="sparkle-ring"></div>
+      <h1 class="title">
+        <span class="letter">D</span><span class="letter">o</span><span class="letter">ğ</span><span class="letter">u</span><span class="letter">m</span>
+        <span class="space"></span>
+        <span class="letter">G</span><span class="letter">ü</span><span class="letter">n</span><span class="letter">ü</span><span class="letter">n</span>
+        <br>
+        <span class="highlight">Kutlu Olsun!</span>
+      </h1>
+
+      <p class="subtitle" id="subtitle">Bugün senin özel günün ✨</p>
+
+      <button id="giftBtn" class="gift-btn">
+        <span class="btn-text">Hediye Kutusu Aç 🎁</span>
+        <span class="btn-glow"></span>
+      </button>
+
+      <div class="message-box" id="messageBox">
+        <div class="message-content" id="messageContent"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Confetti canvas -->
+  <canvas id="confettiCanvas"></canvas>
+
+  <!-- Audio - ayrı dosya olarak -->
+  <audio id="birthdayAudio" preload="auto">
+    <source src="32503.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
