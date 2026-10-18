@@ -193,7 +193,7 @@ const subtitle = document.getElementById('subtitle');
 const fullMessage = [
   "Doğum günün kutlu olsun, kardeş.",
   "Rabbim hayırlı ömürler versin.",
-  "Baba, kaşına gözüne on tane adam ver.",
+  "Baba, kaşına gözüne on tane adam Ölür.",
   "Rah, görüşürüz, bebeğim. 💙"
 ];
 
